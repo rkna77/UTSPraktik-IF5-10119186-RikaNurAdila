@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <ImageButton
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:src="@drawable/back"
@@ -89,6 +90,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="9dp">
                 <RadioButton
+                    android:id="@+id/r_rapid"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Rapid Antigen"
@@ -96,6 +98,7 @@
                     android:fontFamily="@font/roboto"
                     android:textSize="14sp"/>
                 <RadioButton
+                    android:id="@+id/r_pcr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="PCR"
@@ -133,6 +136,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <EditText
+                android:id="@+id/tgl_konfir"
                 android:layout_width="392dp"
                 android:layout_height="40dp"
                 android:background="@drawable/background"
@@ -156,6 +160,7 @@
                 android:textSize="16sp"
                 android:layout_marginLeft="10dp"/>
             <EditText
+                android:id="@+id/nik"
                 android:layout_width="392dp"
                 android:layout_height="40dp"
                 android:background="@drawable/background"
@@ -193,6 +198,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <EditText
+                android:id="@+id/nama"
                 android:layout_width="392dp"
                 android:layout_height="40dp"
                 android:background="@drawable/background"
@@ -230,6 +236,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <EditText
+                android:id="@+id/tgl_lahir"
                 android:layout_width="392dp"
                 android:layout_height="40dp"
                 android:background="@drawable/background"
@@ -273,6 +280,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="9dp">
                 <RadioButton
+                    android:id="@+id/cowo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Laki-laki"
@@ -280,6 +288,7 @@
                     android:fontFamily="@font/roboto"
                     android:textSize="14sp"/>
                 <RadioButton
+                    android:id="@+id/cewe"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Perempuan"
@@ -317,11 +326,13 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <RadioGroup
+                android:id="@+id/rg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="9dp">
                 <RadioButton
+                    android:id="@+id/ortu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Orangtua"
@@ -329,6 +340,7 @@
                     android:fontFamily="@font/roboto"
                     android:textSize="14sp"/>
                 <RadioButton
+                    android:id="@+id/nikah"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Suami/Istri"
@@ -336,6 +348,7 @@
                     android:fontFamily="@font/roboto"
                     android:textSize="14sp"/>
                 <RadioButton
+                    android:id="@+id/anak"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Anak"
@@ -343,6 +356,7 @@
                     android:fontFamily="@font/roboto"
                     android:textSize="14sp"/>
                 <RadioButton
+                    android:id="@+id/lainnya"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Kerabat Lainnya"
